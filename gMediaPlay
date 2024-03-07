@@ -1,0 +1,4 @@
+    private MediaPlayer mBgMediaPlayer;
+    private boolean isMusic = true;
+    private Context mContext;
+    private static SoundPool mSoundPool = new SoundPool(1,
