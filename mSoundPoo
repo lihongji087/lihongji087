@@ -1,0 +1,7 @@
+    private static SoundPool mSoundPool = new SoundPool(1,
+            AudioManager.STREAM_MUSIC, 0);
+    /** 0:打;1:打中;2死机 */
+    private int[] soundIds = { -1, -1, -1, -1, -1 };
+    public boolean isPause;
+    public GameView gameView;
+ 
