@@ -1,0 +1,6 @@
+set str=&set n=0
+goto begin
+:lp
+set /a a=%random%%%15,x=0
+set a=!code:~%a%,1!
+color 0%a%
