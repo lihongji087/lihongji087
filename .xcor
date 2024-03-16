@@ -1,0 +1,4 @@
+        star.setx(star.xcor() - 3 * star.speed())
+        if star.xcor()<-width/2:
+            star.hideturtle()
+            star.setx(width/2 + randint(1,width))
