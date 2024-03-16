@@ -1,0 +1,5 @@
+            star.sety( randint(-height/2,height/2))
+            star.showturtle()
+    if i>= 100:
+        break
+    
