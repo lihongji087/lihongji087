@@ -1,0 +1,7 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class IoDrmo_2 {
+    public static void main(String args[]) throws IOException {
+        FileInputStream fis = new FileInputStream("E:\\java_doc\\src\\io_demo\\demo_pratice");
