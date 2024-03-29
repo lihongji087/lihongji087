@@ -1,0 +1,3 @@
+            Long timestamp = System.currentTimeMillis();
+            String stringToSign = timestamp + "\n" + secret;
+            Mac mac = Mac.getInstance("HmacSHA256");
